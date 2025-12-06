@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+
+    }
+    section {
+      padding: 100px 0;
+    }
+    .hero {
+      background:rgb(247, 241, 241);
+      text-align: center;
+    }
+    img{border-radius: 40%;}
+    .display-4{font-size:3rem;
+    font-weight: bold;}
+    .project-box {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+<!-- ✅ NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ✅ HOME SECTION -->
+<section id="home" class="hero">
+  <div class="container">
+    <img src="./image/IMG_6119.JPG" alt="my-piture" height="200px"/>
+    <h1 class="display-4">Fanta Jawla</h1>
+    <p class="lead">Angehender Fachinformatikerin-Anwendungsentwicklung <br/>
+        Bewerber für eine Ausbildung
+    </p>
+  </div>
+</section>
+
+<!-- ✅ ABOUT SECTION -->
+<section id="about">
+  <div class="container">
+    <h2 class="text-center mb-4">Über Mich</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <p>
+          Ich bin eine engagierte und stets motivierte Person, die gerne programmiert. 
+          Ich bin belastbar, teamfähig und habe Freude an der Zusammenarbeit mit anderen. Mein Ziel ist es, ein professioneller Programmierer zu werden und komplexe Probleme kreativ zu lösen.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ PROJECTS SECTION -->
+<section id="projects" class="bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Meine Projekte</h2>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="project-box">
+          <h5>HTML Portfolio</h5>
+          <p>Mein ertes Portfolio, erstellt mit HTML und CSS</p>
+          <a href="https://fantajawla9-dotcom.github.io/html-portfolio/" target="_blank" class="btn btn-dark btn-sm">Projekt ansehen</a>
+        </div>
+      </div>
+
+      <!-- Project 2 (For Future Use) -->
+      <div class="col-md-4">
+        <div class="project-box">
+          <h5>Bootstrap Projekt</h5>
+          <p>Responsive Website erstellt mit Bootstrap.</p>
+          <a href="https://fantajawla9-dotcom.github.io/html-bootstrap/" target="_blank" class="btn btn-secondary btn-sm">Projekt ansehen</a>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ✅ CONTACT SECTION -->
+<section id="contact">
+  <div class="container">
+    <h2 class="text-center mb-4">Kontakt</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <p>Email: fantajawla9@gmail.com</p>
+        <p>GitHub: https://github.com/fantajawla9-dotcom</p>
+        <p>Location: Germany</p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<!-- ✅ FOOTER -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+<footer>
+  <p>© 2025 Fanta Jawla | Portfolio</p>
+</footer>
+</html>
